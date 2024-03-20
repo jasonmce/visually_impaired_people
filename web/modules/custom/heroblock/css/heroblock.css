@@ -1,0 +1,31 @@
+.heroblock {
+  color: white;
+}
+
+.heroblock .site-title {
+  padding: 1rem 0 0 1rem;
+}
+
+.heroblock .site-title a {
+  color: white;
+  font-size: 2rem;
+  font-family: serif;
+  text-decoration: none;
+}
+
+.heroblock .site-title a:hover {
+  text-decoration: initial;
+}
+
+
+.heroblock .site-slogan {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.heroblock img {
+  position: absolute;
+  z-index: -1;
+}
+
+
