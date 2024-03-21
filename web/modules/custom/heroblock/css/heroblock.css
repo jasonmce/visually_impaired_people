@@ -42,3 +42,9 @@
     padding-bottom: 2rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .heroblock {
+    padding-bottom: 4rem;
+  }
+}
