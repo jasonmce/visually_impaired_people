@@ -1,16 +1,18 @@
 /* Block uses the image as a background with white text for the title and slogan */
 .heroblock {
   position: relative;
+  background-color: var(--color-primary);
 }
 .heroblock img {
   position: absolute;
   width: 100%;
-  z-index: -1;
 }
 .heroblock .site-title,
 .heroblock .site-slogan {
   padding-left: 1rem;
   margin-bottom: 0;
+  position: relative;
+  z-index: 1;
 }
 .heroblock .site-title a:hover {
   text-decoration: initial;
