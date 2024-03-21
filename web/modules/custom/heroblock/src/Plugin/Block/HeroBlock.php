@@ -24,7 +24,11 @@ class HeroBlock extends BlockBase {
     $siteName = $site_config->get('name');
     $siteSlogan = $site_config->get('slogan');
 
-    $imageElement = "<img src='themes/custom/vip_olivero_sub_theme/images/William.jpeg' />";
+    $modulePath =
+      \Drupal::service('extension.path.resolver')
+      ->getPath('module', 'heroblock');
+
+    $imageElement = "<img src='/" . $modulePath . "/William.jpeg' />";
     $nameElement = "<p class='site-title'><a href='/' title='Home'>$siteName</a></p>";
     $sloganElement = "<p class='site-slogan'>$siteSlogan</p>";
 

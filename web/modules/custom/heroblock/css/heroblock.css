@@ -1,31 +1,44 @@
+/* Block uses the image as a background with white text for the title and slogan */
 .heroblock {
-  color: white;
+  position: relative;
 }
-
-.heroblock .site-title {
-  padding: 1rem 0 0 1rem;
+.heroblock img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
-
-.heroblock .site-title a {
-  color: white;
-  font-size: 2rem;
-  font-family: serif;
-  text-decoration: none;
+.heroblock .site-title,
+.heroblock .site-slogan {
+  padding-left: 1rem;
+  margin-bottom: 0;
 }
-
 .heroblock .site-title a:hover {
   text-decoration: initial;
 }
-
-
+.heroblock .site-title a {
+  color: white;
+  font-family: serif;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
 .heroblock .site-slogan {
-  font-size: 1rem;
-  padding-left: 1rem;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
-.heroblock img {
-  position: absolute;
-  z-index: -1;
+@media screen and (min-width: 500px){
+  .heroblock .site-title {
+    font-size: 1.4rem;
+  }
+  .heroblock .site-slogan {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
 }
 
-
+@media screen and (min-width: 768px) {
+  .heroblock {
+    padding-bottom: 2rem;
+  }
+}
