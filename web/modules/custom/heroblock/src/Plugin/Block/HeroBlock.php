@@ -5,12 +5,12 @@ namespace Drupal\heroblock\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 
 /**
- * Provides a 'Hero' Block.
+ * Provides a 'Hero' Block using the Site Theme Logo as the background image.
  *
  * @Block(
  *   id = "hero_block",
  *   admin_label = @Translation("Hero block"),
- *   category = @Translation("Hero World"),
+ *   category = @Translation("Hero block"),
  * )
  */
 class HeroBlock extends BlockBase {
@@ -24,11 +24,13 @@ class HeroBlock extends BlockBase {
     $siteName = $site_config->get('name');
     $siteSlogan = $site_config->get('slogan');
 
+    $siteLogo = \theme_get_setting("logo");
+
     $modulePath =
       \Drupal::service('extension.path.resolver')
       ->getPath('module', 'heroblock');
 
-    $imageElement = "<img alt='photo of William H Bownam' src='/" . $modulePath . "/William.jpeg' />";
+    $imageElement = "<img alt='photo of William H Bownam' src='" . $siteLogo['url'] . "' />";
     $nameElement = "<p class='site-title'><a href='/' title='Home'>$siteName</a></p>";
     $sloganElement = "<p class='site-slogan'>$siteSlogan</p>";
 
