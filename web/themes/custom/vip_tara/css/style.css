@@ -4,6 +4,15 @@
   --color-primary: #884e11; /* Provides better contrast than default */
 }
 
+h1 {
+  color: var(--color-primary);
+}
+
+/* Give the title a top and bottom margin */
+.page-title-wrap {
+  margin: 1rem 0;
+}
+
 /* Style customizations */
 #footer {
   background: var(--color-primary-light); /* Get rid of graph paper svg overlay */
