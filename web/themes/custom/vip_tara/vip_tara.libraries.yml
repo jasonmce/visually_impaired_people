@@ -3,4 +3,5 @@ global-styling:
   version: VERSION
   css:
     theme:
+      css/branding-block.css: {}
       css/style.css: {}
