@@ -4,11 +4,8 @@ base theme: tara
 description: '<p>VIP Subtheme of Tara, a light weight modern Drupal 8, 9, 10 theme by <a href="https://drupar.com/" target="_blank">Drupar.com</a></p><p><a href="https://drupar.com/theme/tara" target="_blank">Theme Homepage</a> | <a href="https://drupar.com/tara-theme-documentation" target="_blank">User Guide</a></p>'
 package: Drupar
 core_version_requirement: ^9 || ^10
-# Comment version before uploading to drupal.org
-# version: 10.1.2
-# Libraries
 libraries:
-  - vip_tara/global-styling # Library for all global css. These css will be loaded on every pages.
+  - vip_tara/global-styling # Library for global css overrides. These css will be loaded on every pages.
 regions:
   header_top: 'Header Top'
   site_branding: 'Site Branding'
@@ -31,8 +28,3 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_bottom: 'Footer Bottom'
   hidden_blocks: 'Hidden Blocks'
-
-# Information added by Drupal.org packaging script on 2023-09-10
-version: '10.1.2'
-project: 'tara'
-datestamp: 1694332698
