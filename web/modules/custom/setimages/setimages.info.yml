@@ -1,5 +1,0 @@
-name: 'setimages'
-type: module
-description: 'sets images from d6 site'
-package: Custom
-core_version_requirement: ^10 || ^11

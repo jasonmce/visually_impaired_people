@@ -1,5 +1,0 @@
-# Custom module library for general purposes.
-heroblock:
-  css:
-    theme:
-      css/heroblock.css: {}
