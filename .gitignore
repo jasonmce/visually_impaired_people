@@ -2,10 +2,9 @@
 /*
 
 # Things we specifically want.
-!composer.*
 !.gitignore
-!config
-!database.sql.gz
+!composer.*
+!README.txt
 
 # Include web/modules/custom and web/themes/custom.
 !web/
@@ -18,4 +17,3 @@ web/modules/*
 !web/themes
 web/themes/*
 !web/themes/custom
-
