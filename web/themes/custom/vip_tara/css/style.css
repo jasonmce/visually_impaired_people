@@ -4,8 +4,14 @@
   --color-primary: #884e11; /* Provides better contrast than default */
 }
 
-h1 {
+/* These headings should use the primary color by default */
+h1, h2 {
   color: var(--color-primary);
+}
+
+/* Centering the page title just looks better */
+.page-title {
+  text-align: center;
 }
 
 /* Give the title a top and bottom margin */
