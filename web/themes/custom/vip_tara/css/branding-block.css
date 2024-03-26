@@ -1,14 +1,15 @@
 /* Css to make the logo a hero image */
+.site-branding {
+  position: relative;
+}
 .site-branding .site-logo img {
   max-height: initial;
 }
-
 .site-branding .site-name-slogan {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-
 .site-branding .site-name,
 .site-branding .site-slogan {
   padding-left: 1rem;
@@ -28,7 +29,6 @@
   text-decoration: none;
   text-shadow: 1px 1px black;
 }
-
 .site-branding .site-slogan {
   bottom: 1rem;
   color: white;
