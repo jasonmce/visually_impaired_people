@@ -26,3 +26,8 @@ Components:
   The frontpage title comes from the Frontpage view title.
     @see /admin/structure/views/view/frontpage
 
+Hosting configuration:
+  The .htaccess file has been updated to:
+  - Use /web/ as the docroot
+  - Force all traffic to ssl
+  - Force all traffic to use the www subdomain
