@@ -3,12 +3,14 @@
 
 # Things we specifically want.
 !.gitignore
+!.htaccess
 !composer.*
 !README.txt
 
 # Include web/modules/custom and web/themes/custom.
 !web/
 web/*
+!web/.htaccess
 
 !web/themes
 web/themes/*
