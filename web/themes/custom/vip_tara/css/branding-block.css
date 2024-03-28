@@ -12,13 +12,14 @@
 }
 .site-branding .site-name,
 .site-branding .site-slogan {
-  padding-left: 1rem;
   margin-bottom: 0;
+  padding-left: 0;
   position: relative;
   z-index: 1;
 }
 .site-branding .site-name {
-  padding-top: 1rem;
+  font-size: 1rem;
+  padding-top: 0;
 }
 .site-branding .site-name a:hover {
   text-decoration: initial;
@@ -30,20 +31,23 @@
   text-shadow: 1px 1px black;
 }
 .site-branding .site-slogan {
-  bottom: 1rem;
+  bottom: 0.25rem;
   color: white;
   position: absolute;
   text-shadow: 1px 1px black;
 }
 
-@media screen and (max-width: 499px) {
-  .site-branding .site-name {
-    font-size: 1rem;
-  }
-}
-
 @media screen and (min-width: 500px){
+  .site-branding .site-name,
   .site-branding .site-slogan {
+    padding-left: 1rem;
+  }
+  .site-branding .site-name {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+  }
+  .site-branding .site-slogan {
+    bottom: 1rem;
     font-size: 1rem;
   }
 }
