@@ -1,10 +1,9 @@
-/* Variables
------------------------ */
+/* Provides better contrast than default */
 :root {
-  --color-primary: #884e11; /* Provides better contrast than default */
+  --color-primary: #884e11;
 }
 
-/* These headings should use the primary color by default */
+/* Headings use the primary color by default */
 h1, h2 {
   color: var(--color-primary);
 }
@@ -19,7 +18,7 @@ h1, h2 {
   margin: 1rem 0;
 }
 
-/* Style customizations */
+/* Get rid of graph paper svg overlay */
 #footer {
-  background: var(--color-primary-light); /* Get rid of graph paper svg overlay */
+  background: var(--color-primary-light);
 }

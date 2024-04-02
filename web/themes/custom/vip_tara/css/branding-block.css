@@ -6,9 +6,9 @@
   max-height: initial;
 }
 .site-branding .site-name-slogan {
+  height: 100%;
   position: absolute;
   width: 100%;
-  height: 100%;
 }
 .site-branding .site-name,
 .site-branding .site-slogan {
