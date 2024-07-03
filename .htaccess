@@ -63,9 +63,9 @@ AddEncoding gzip svgz
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
-  RewriteRule ^ - [E=protossl]
-  RewriteCond %{HTTPS} on
-  RewriteRule ^ - [E=protossl:s]
+  # RewriteRule ^ - [E=protossl]
+  # RewriteCond %{HTTPS} on
+  # RewriteRule ^ - [E=protossl:s]
 
   # Make sure Authorization HTTP header is available to PHP
   # even when running as CGI or FastCGI.
@@ -120,7 +120,7 @@ AddEncoding gzip svgz
   RewriteCond %{HTTPS}s ^on(s)|
   RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-  # Force SSL: From http://stackoverflow.com/q/24322035/
+  # # Force SSL: From http://stackoverflow.com/q/24322035/
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=302,L,NE]
 

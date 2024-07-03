@@ -112,11 +112,6 @@ AddEncoding gzip svgz
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
   # RewriteBase /
-RewriteBase /web
-
-  # Redirect to /web path
-  RewriteCond %{REQUEST_URI} !web/
-  RewriteRule (.*) /web/$1 [L]
 
   # Redirect common PHP files to their new locations.
   RewriteCond %{REQUEST_URI} ^(.*)?/(install\.php) [OR]
@@ -189,4 +184,3 @@ RewriteBase /web
   # Disable Proxy header, since it's an attack vector.
   RequestHeader unset Proxy
 </IfModule>
-AddHandler application/x-httpd-php81 .php .php5 .php4 .php3
