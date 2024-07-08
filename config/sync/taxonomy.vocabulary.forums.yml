@@ -1,0 +1,9 @@
+uuid: 698557ea-947f-4856-854e-b9b245a4aa15
+langcode: en
+status: true
+dependencies: {  }
+name: Forums
+vid: forums
+description: null
+weight: -10
+new_revision: false

@@ -1,0 +1,22 @@
+uuid: 07d2dcf8-4343-42c2-83f0-275bb8932c36
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: iyuQj9HP7TudJqR2BDGoGXEn16NE3m1KUtCw0N5ZTMM
+id: vip_tara_help
+theme: vip_tara
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

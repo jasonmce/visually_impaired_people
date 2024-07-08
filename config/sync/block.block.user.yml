@@ -1,0 +1,25 @@
+uuid: 2e740c56-30b0-422e-8354-80e7776516be
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - claro
+id: user
+theme: claro
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /admin

@@ -1,0 +1,25 @@
+uuid: da18297c-49a2-4c1b-986f-dc7b8c88c45f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_8
+theme: classy
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+settings:
+  id: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  label: 'Make a donation'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

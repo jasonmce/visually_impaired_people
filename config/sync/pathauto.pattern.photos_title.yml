@@ -1,0 +1,22 @@
+uuid: 2dfe3f8d-125c-4701-a9cc-8799a3471afa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: photos_title
+label: photos/title
+type: 'canonical_entities:node'
+pattern: 'photos/[node:title]'
+selection_criteria:
+  e16c5705-1bda-4eec-8523-4adad9c2e590:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e16c5705-1bda-4eec-8523-4adad9c2e590
+    context_mapping:
+      node: node
+    bundles:
+      image: image
+selection_logic: and
+weight: -5
+relationships: {  }

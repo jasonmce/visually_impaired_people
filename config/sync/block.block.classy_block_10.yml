@@ -1,0 +1,25 @@
+uuid: 26e1665b-e8f5-4027-a334-87dacf28418b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_10
+theme: classy
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'block_content:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+settings:
+  id: 'block_content:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+  label: 'In the Media'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

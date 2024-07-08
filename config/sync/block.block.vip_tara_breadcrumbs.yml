@@ -1,0 +1,22 @@
+uuid: ea3964c4-098e-49b0-b1a2-913f797cced9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: cL11xuvgbDwRtGEQLBQ0vuywqHSwOo9oXtztdmgiTfk
+id: vip_tara_breadcrumbs
+theme: vip_tara
+region: breadcrumb
+weight: -10
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 93b276fe-316a-42e5-af6e-23c1c401a76b
+langcode: en
+status: true
+dependencies: {  }
+id: navigation
+label: Navigation
+description: 'The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users.'
+locked: false

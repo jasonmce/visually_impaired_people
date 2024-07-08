@@ -1,0 +1,20 @@
+uuid: eba89733-a034-4f8f-a766-8b96e608f543
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+id: system
+theme: claro
+region: content
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

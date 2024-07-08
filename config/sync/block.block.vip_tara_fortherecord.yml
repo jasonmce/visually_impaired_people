@@ -1,0 +1,25 @@
+uuid: 98b585d5-f69e-4e4e-9e47-fb1974ee2a13
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_fortherecord
+theme: vip_tara
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'block_content:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+settings:
+  id: 'block_content:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+  label: 'For The Record'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 028e01bd-3dd2-4f6a-8849-785909528635
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  module:
+    - block_content
+  theme:
+    - alagna
+id: block_1
+theme: alagna
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+settings:
+  id: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  label: 'Facebook Fans'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

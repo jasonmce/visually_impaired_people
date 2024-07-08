@@ -1,0 +1,27 @@
+uuid: 3d6e9ae4-ad1e-44a7-b9c3-b4803d07182c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: GuTbIyii0zho7w87nlUzB6VdN_NDk90_bI5WLODkZ8U
+id: vip_tara_main_menu
+theme: vip_tara
+region: primary_menu
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

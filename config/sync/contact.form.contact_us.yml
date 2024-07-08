@@ -1,0 +1,13 @@
+uuid: a58d7e6b-517a-40a0-b26c-4c72c6f3bd68
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - chillwill38@bellsouth.net
+  - amandabgranger@yahoo.com
+reply: 'We appreciate you contacting V.I.P.: Visually Impaired People, Inc. We will be in contact with you really soon.'
+weight: 0
+message: ''
+redirect: ''

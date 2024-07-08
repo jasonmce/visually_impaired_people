@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 25e3c49a-7762-487a-ba25-6c59f505a244
+name: 'Visually Impaired People, Inc.'
+mail: info@visuallyimpairedpeople.org
+slogan: 'Making life better for the blind and visually impaired'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

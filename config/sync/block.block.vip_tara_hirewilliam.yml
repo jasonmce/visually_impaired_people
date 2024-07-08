@@ -1,0 +1,25 @@
+uuid: 9216fc88-fb60-4827-af29-c1908fb393d7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_hirewilliam
+theme: vip_tara
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+settings:
+  id: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  label: 'Motivational Speaker'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

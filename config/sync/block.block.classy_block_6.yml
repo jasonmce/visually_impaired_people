@@ -1,0 +1,25 @@
+uuid: 231ed279-65a1-476c-be0e-52a2bda5238b
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6688703f-fc47-4a0a-ae1e-ebf6b1d97564'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_6
+theme: classy
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:6688703f-fc47-4a0a-ae1e-ebf6b1d97564'
+settings:
+  id: 'block_content:6688703f-fc47-4a0a-ae1e-ebf6b1d97564'
+  label: Twitter
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

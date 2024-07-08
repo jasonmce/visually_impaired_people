@@ -1,0 +1,25 @@
+uuid: efd5988c-55d4-4bb9-b059-1a307a593f69
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - classy
+id: classy_user_2
+theme: classy
+region: content
+weight: -7
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /admin

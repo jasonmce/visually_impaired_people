@@ -1,0 +1,25 @@
+uuid: b10708f6-0cab-4bbc-b0b3-afd9a589a85e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_9
+theme: classy
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+settings:
+  id: 'block_content:3ef6247f-c6d5-4bd4-bf17-23081c8f3c08'
+  label: 'For The Record'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

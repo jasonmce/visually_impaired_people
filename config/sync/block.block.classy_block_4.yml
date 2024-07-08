@@ -1,0 +1,25 @@
+uuid: 7b4f32f9-7ac8-4118-9c9c-5946a1290099
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_4
+theme: classy
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+settings:
+  id: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  label: 'V.I.P. Sponsors'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

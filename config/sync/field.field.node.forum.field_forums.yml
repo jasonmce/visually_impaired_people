@@ -1,0 +1,25 @@
+uuid: b4f69abb-a702-426b-8a1a-9bc6b227eb92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_forums
+    - node.type.forum
+    - taxonomy.vocabulary.forums
+id: node.forum.field_forums
+field_name: field_forums
+entity_type: node
+bundle: forum
+label: Forums
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      forums: forums
+    auto_create: true
+field_type: entity_reference

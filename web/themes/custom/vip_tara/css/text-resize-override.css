@@ -1,0 +1,6 @@
+/* Overrides for the default text resize module block styles */
+
+/* Pull the enlarge/reduce icons to the left side of the container */
+#block-vip-tara-textresize .block-content {
+  display: inline-block;
+}

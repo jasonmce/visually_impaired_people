@@ -1,0 +1,25 @@
+uuid: 5bd12a4a-9088-455f-bfda-3cad1a060085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_galleries
+    - node.type.image
+    - taxonomy.vocabulary.image_galleries
+id: node.image.field_image_galleries
+field_name: field_image_galleries
+entity_type: node
+bundle: image
+label: 'Image Galleries'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      image_galleries: image_galleries
+    auto_create: true
+field_type: entity_reference

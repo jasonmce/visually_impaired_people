@@ -1,0 +1,25 @@
+uuid: bda3a79b-3042-49e8-a739-8c568846bad4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:80dabfdf-b0bf-47cc-98fd-9fcdab9be814'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_textsizer
+theme: vip_tara
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'block_content:80dabfdf-b0bf-47cc-98fd-9fcdab9be814'
+settings:
+  id: 'block_content:80dabfdf-b0bf-47cc-98fd-9fcdab9be814'
+  label: 'Text Sizer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

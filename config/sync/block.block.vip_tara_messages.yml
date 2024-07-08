@@ -1,0 +1,22 @@
+uuid: 8c34bedd-35ce-4b36-a131-2b42a5addbd8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: jRybYmcmTQ6xIX-OJZ0DhDtRCdrtGsC0CHaNfwfvgFQ
+id: vip_tara_messages
+theme: vip_tara
+region: highlighted
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

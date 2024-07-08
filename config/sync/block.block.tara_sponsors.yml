@@ -1,0 +1,25 @@
+uuid: f44a72b8-d162-4b73-9264-ad51f34d197b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_sponsors
+theme: tara
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+settings:
+  id: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  label: Sponsors
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

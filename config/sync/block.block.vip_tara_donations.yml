@@ -1,0 +1,25 @@
+uuid: f2ca2de4-3fa6-4c20-904b-4dc06a8c51b4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_donations
+theme: vip_tara
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+settings:
+  id: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  label: 'Help V.I.P.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

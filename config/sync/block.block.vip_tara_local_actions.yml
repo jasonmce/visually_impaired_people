@@ -1,0 +1,20 @@
+uuid: c7a9ef7f-a7b0-405a-8953-d2be3750d14f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: O-oSwMAtp65xes7Nbp2cnZEx2azaMpuSPowOKbjigcc
+id: vip_tara_local_actions
+theme: vip_tara
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

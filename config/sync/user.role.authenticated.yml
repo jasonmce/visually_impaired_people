@@ -1,0 +1,32 @@
+uuid: cfc1c068-50ac-4061-9aba-ef3a47b61acb
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - node.type.forum
+  module:
+    - comment
+    - contact
+    - filter
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'change own username'
+  - 'create forum content'
+  - 'delete own forum content'
+  - 'edit own forum content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format filtered_html'

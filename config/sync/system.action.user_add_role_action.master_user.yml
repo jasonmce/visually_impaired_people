@@ -1,0 +1,14 @@
+uuid: e68de561-338f-454e-a180-305caadf6b00
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.master_user
+  module:
+    - user
+id: user_add_role_action.master_user
+label: 'Add the Master User role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: master_user

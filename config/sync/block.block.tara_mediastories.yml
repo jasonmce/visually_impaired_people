@@ -1,0 +1,25 @@
+uuid: bcfe5a4e-6d35-46e9-9cd0-cb0dd95f3129
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_mediastories
+theme: tara
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'block_content:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+settings:
+  id: 'block_content:1a980f24-f64d-42a8-8dfa-50126056ae3d'
+  label: 'Media Stories'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

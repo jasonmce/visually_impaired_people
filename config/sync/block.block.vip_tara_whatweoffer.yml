@@ -1,0 +1,30 @@
+uuid: 5033f9b8-53a3-479c-a4df-eea4978008d1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3a1ff41e-5c0a-453d-8f9c-499d71ab4090'
+  module:
+    - block_content
+    - system
+  theme:
+    - vip_tara
+id: vip_tara_whatweoffer
+theme: vip_tara
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'block_content:3a1ff41e-5c0a-453d-8f9c-499d71ab4090'
+settings:
+  id: 'block_content:3a1ff41e-5c0a-453d-8f9c-499d71ab4090'
+  label: 'What We Offer'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

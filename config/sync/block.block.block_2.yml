@@ -1,0 +1,25 @@
+uuid: fef84abf-a08d-4b41-8155-366b6138c318
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  module:
+    - block_content
+  theme:
+    - gnifetti
+id: block_2
+theme: gnifetti
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+settings:
+  id: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  label: 'Facebook Fans'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

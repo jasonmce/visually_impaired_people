@@ -1,0 +1,25 @@
+uuid: 776c9be4-2709-4d18-8b21-05a1c2c57ae1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block_7
+theme: classy
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+settings:
+  id: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  label: 'Motivate Today!'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

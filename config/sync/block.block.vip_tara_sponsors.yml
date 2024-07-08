@@ -1,0 +1,25 @@
+uuid: 91f1a4ff-96e3-4afe-a881-1693b71d07d7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_sponsors
+theme: vip_tara
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+settings:
+  id: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
+  label: Sponsors
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

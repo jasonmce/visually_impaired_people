@@ -1,0 +1,14 @@
+uuid: 9332d427-c819-4dc7-9280-13c98766450e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.master_user
+  module:
+    - user
+id: user_remove_role_action.master_user
+label: 'Remove the Master User role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: master_user

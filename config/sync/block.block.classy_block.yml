@@ -1,0 +1,25 @@
+uuid: 7bb9acc0-46dc-4342-963e-34b663052ddf
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  module:
+    - block_content
+  theme:
+    - classy
+id: classy_block
+theme: classy
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+settings:
+  id: 'block_content:c2f728c9-89f4-4765-afd4-c15c0e00fd26'
+  label: 'Facebook Fans'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

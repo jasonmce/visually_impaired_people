@@ -1,0 +1,25 @@
+uuid: 4cbd4097-c0fd-4482-aa37-55b130a4fabf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_hirewilliam
+theme: tara
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+settings:
+  id: 'block_content:69c70267-cee1-44a2-9695-4e39ac5d360c'
+  label: 'Hire William'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

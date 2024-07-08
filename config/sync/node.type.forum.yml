@@ -1,0 +1,11 @@
+uuid: 6162c22b-ee5c-4392-98b2-ebc1787acdc6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Forum topic'
+type: forum
+description: 'A <em>forum topic</em> is the initial post to a new discussion thread within a forum.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

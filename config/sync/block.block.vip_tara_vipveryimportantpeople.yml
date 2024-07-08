@@ -1,0 +1,30 @@
+uuid: b1331dea-70e6-4444-bca9-d90ee1d89336
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:95f616d4-eb24-4803-803e-a9c2caa5dbd8'
+  module:
+    - block_content
+    - system
+  theme:
+    - vip_tara
+id: vip_tara_vipveryimportantpeople
+theme: vip_tara
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:95f616d4-eb24-4803-803e-a9c2caa5dbd8'
+settings:
+  id: 'block_content:95f616d4-eb24-4803-803e-a9c2caa5dbd8'
+  label: 'VIP - Very Important People'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,20 @@
+uuid: c0ec852b-852c-4c83-98a2-4ea413f5ec74
+langcode: en
+status: true
+dependencies:
+  theme:
+    - vip_tara
+_core:
+  default_config_hash: Jg8sbWAHmaNnulBIV3mIX9nhLlnTmVey6atMumOhqtU
+id: vip_tara_page_title
+theme: vip_tara
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

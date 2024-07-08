@@ -1,0 +1,33 @@
+uuid: f9df57ff-0262-42cf-8062-22578352978f
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_reason
+field_name: field_reason
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: accessibility_issue
+      label: 'Accessibility issue'
+    -
+      value: website_broken
+      label: 'Website broken'
+    -
+      value: content_needs_improvement
+      label: 'Content needs improvement'
+    -
+      value: other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

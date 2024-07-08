@@ -1,0 +1,25 @@
+uuid: 4528da32-5b22-468b-8570-bc05fde187e7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - alagna
+id: user_4
+theme: alagna
+region: ''
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /admin

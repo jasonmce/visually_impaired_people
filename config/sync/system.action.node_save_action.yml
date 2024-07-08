@@ -1,0 +1,13 @@
+uuid: 54c017c6-d298-495f-a1dd-11453eba9430
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Save post'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

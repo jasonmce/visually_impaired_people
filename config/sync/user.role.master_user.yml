@@ -1,0 +1,72 @@
+uuid: ed432456-1139-4950-a5b3-4c3b1d372c34
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.blog
+    - node.type.forum
+    - node.type.page
+    - node.type.story
+  module:
+    - block
+    - comment
+    - contact
+    - filter
+    - node
+    - path
+    - search
+    - system
+    - taxonomy
+id: master_user
+label: 'Master User'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'administer blocks'
+  - 'administer comments'
+  - 'administer contact forms'
+  - 'administer content types'
+  - 'administer filters'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer search'
+  - 'administer site configuration'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'administer users'
+  - 'change own username'
+  - 'create blog content'
+  - 'create forum content'
+  - 'create page content'
+  - 'create story content'
+  - 'create url aliases'
+  - 'delete any blog content'
+  - 'delete any forum content'
+  - 'delete any page content'
+  - 'delete any story content'
+  - 'delete own blog content'
+  - 'delete own forum content'
+  - 'delete own page content'
+  - 'delete own story content'
+  - 'edit any blog content'
+  - 'edit any forum content'
+  - 'edit any page content'
+  - 'edit any story content'
+  - 'edit own blog content'
+  - 'edit own forum content'
+  - 'edit own page content'
+  - 'edit own story content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use advanced search'
+  - 'use text format full_html'

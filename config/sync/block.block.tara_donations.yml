@@ -1,0 +1,25 @@
+uuid: 82f7f313-5950-4030-b742-3931f53e8b02
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_donations
+theme: tara
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+settings:
+  id: 'block_content:72111245-3f21-4cc7-b0a4-8b5ae956175d'
+  label: Donations
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
