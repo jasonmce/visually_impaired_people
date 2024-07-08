@@ -3,12 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment_forum.default
     - field.field.node.forum.body
     - field.field.node.forum.comment_forum
     - field.field.node.forum.field_forums
     - field.field.node.forum.upload
     - node.type.forum
   module:
+    - comment
     - file
     - text
     - user
@@ -22,7 +24,16 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 101
+    region: content
+  comment_forum:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
     region: content
   field_forums:
     type: entity_reference_label
@@ -30,12 +41,12 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 0
+    weight: 20
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 100
     region: content
   upload:
     type: file_default
@@ -43,7 +54,6 @@ content:
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 3
+    weight: 102
     region: content
-hidden:
-  comment_forum: true
+hidden: {  }

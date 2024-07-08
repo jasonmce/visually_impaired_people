@@ -11,7 +11,7 @@ dependencies:
 id: vip_tara_sponsors
 theme: vip_tara
 region: sidebar_second
-weight: -7
+weight: -6
 provider: null
 plugin: 'block_content:ba04afbe-9d4a-4a6b-b812-7930c064e8de'
 settings:

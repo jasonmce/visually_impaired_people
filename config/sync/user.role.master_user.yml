@@ -12,6 +12,7 @@ dependencies:
     - block
     - comment
     - contact
+    - editoria11y
     - filter
     - node
     - path
@@ -65,8 +66,10 @@ permissions:
   - 'edit own forum content'
   - 'edit own page content'
   - 'edit own story content'
+  - 'mark as hidden in editoria11y'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use advanced search'
   - 'use text format full_html'
+  - 'view editoria11y checker'

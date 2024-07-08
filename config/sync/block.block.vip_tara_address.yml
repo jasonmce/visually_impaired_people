@@ -1,0 +1,25 @@
+uuid: d9670995-79a8-46d0-9a82-68c36d071d2d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5c3e6a86-68ad-4f5e-8877-50916e6da0ad'
+  module:
+    - block_content
+  theme:
+    - vip_tara
+id: vip_tara_address
+theme: vip_tara
+region: footer_bottom
+weight: -9
+provider: null
+plugin: 'block_content:5c3e6a86-68ad-4f5e-8877-50916e6da0ad'
+settings:
+  id: 'block_content:5c3e6a86-68ad-4f5e-8877-50916e6da0ad'
+  label: Address
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

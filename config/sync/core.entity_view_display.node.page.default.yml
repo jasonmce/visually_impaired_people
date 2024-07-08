@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment_node_page.default
     - field.field.node.page.body
     - field.field.node.page.comment_node_page
     - field.field.node.page.field_image
@@ -10,6 +11,7 @@ dependencies:
     - image.style.wide
     - node.type.page
   module:
+    - comment
     - file
     - image
     - text
@@ -26,7 +28,16 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 100
+    region: content
+  comment_node_page:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
     region: content
   field_image:
     type: image
@@ -37,12 +48,10 @@ content:
       image_loading:
         attribute: eager
     third_party_settings: {  }
-    weight: 0
+    weight: -1
     region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
+    weight: 101
     region: content
   upload:
     type: file_default
@@ -50,7 +59,6 @@ content:
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 3
+    weight: 102
     region: content
-hidden:
-  comment_node_page: true
+hidden: {  }

@@ -31,7 +31,7 @@ display:
         options:
           offset: 0
           items_per_page: 5
-          total_pages: 0
+          total_pages: 4
           id: 0
           tags:
             next: 'Next ›'

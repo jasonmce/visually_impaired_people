@@ -1,0 +1,20 @@
+uuid: bb725cd7-e93d-48d7-80e9-4f9a6c3b76e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - text_resize
+  theme:
+    - vip_tara
+id: vip_tara_textresize
+theme: vip_tara
+region: sidebar_second
+weight: -10
+provider: null
+plugin: text_resize_block
+settings:
+  id: text_resize_block
+  label: 'ENLARGE THE TEXT'
+  label_display: visible
+  provider: text_resize
+visibility: {  }

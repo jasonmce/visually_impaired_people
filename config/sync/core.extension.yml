@@ -21,6 +21,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  editoria11y: 0
   field: 0
   field_ui: 0
   file: 0
@@ -45,6 +46,7 @@ module:
   recaptcha: 0
   search: 0
   shortcut: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -54,7 +56,10 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  xmlsitemap_custom: 0
+  xmlsitemap_engines: 0
   pathauto: 1
+  xmlsitemap: 1
   views: 10
   standard: 1000
 theme:
