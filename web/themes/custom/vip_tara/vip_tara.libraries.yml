@@ -6,3 +6,7 @@ global-styling:
       css/branding-block.css: {}
       css/text-resize-override.css: {}
       css/style.css: {}
+      css/dark-mode.css: {} 
+  js:
+    js/dark-mode.js: {}
+      

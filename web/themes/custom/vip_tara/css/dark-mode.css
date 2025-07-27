@@ -1,0 +1,85 @@
+/**
+ * @file
+ * Dark mode styles.
+ *
+ * Uses body.light-mode and body.dark-mode classes to toggle dark mode.
+ * Falls back to system dark mode preferences when no class is set.
+ */
+
+.dark-mode-only {
+  display: none;
+}
+
+/* Auto dark mode via media query for first-paint if no class is set */
+@media (prefers-color-scheme: dark) {
+  body:not(.light-mode) .dark-mode-only {
+    display: inline;
+  }
+
+  body:not(.light-mode) .light-mode-only {
+    display: none;
+  }
+
+  body:not(.light-mode) {
+    --bg-body: #121212;
+    --light: var(--bg-body);
+    --color-primary-light: var(--bg-body);
+    --text-color: #e0e0e0;
+    --bold-color: var(--text-color);
+    --border: #dbdbd3;
+  }
+
+  body:not(.light-mode) .sidebar .block {
+    background-color: var(--bg-body);
+  }
+
+  body:not(.light-mode) .header {
+    background-color: var(--bg-body);
+  }
+
+  body:not(.light-mode) .region-primary-menu .menu a {
+    color: var(--text-color);
+    background-color: var(--bg-body);
+  }
+
+  body:not(.light-mode) .region-primary-menu .menu a:hover {
+    color: var(--bg-body);
+    background-color: var(--text-color);
+  }
+}
+
+/* Explicit dark mode if .dark-mode class is set */
+body.dark-mode {
+  --bg-body: #121212;
+  --light: var(--bg-body);
+  --color-primary-light: var(--bg-body);
+  --text-color: #e0e0e0;
+  --bold-color: #e0e0e0;
+  --border: #dbdbd3;
+}
+
+body.dark-mode .light-mode-only {
+  display: none;
+}
+
+body.dark-mode .dark-mode-only {
+  display: inline;
+}
+
+body.dark-mode .sidebar .block {
+  background-color: var(--bg-body);
+}
+
+body.dark-mode .header {
+  background-color: #121212;
+}
+
+body.dark-mode .region-primary-menu .menu a {
+  color: var(--text-color);
+  background-color: var(--bg-body);
+}
+
+body.dark-mode .region-primary-menu .menu a:hover {
+  color: var(--bg-body);
+  background-color: var(--text-color);
+}
