@@ -4,22 +4,40 @@
  *
  * Uses body.light-mode and body.dark-mode classes to toggle dark mode.
  * Falls back to system dark mode preferences when no class is set.
+ * Moves a few styles from tara to here to make it easier to override.
+ * Adds an additional variable for ckeditor text color and 
+ * display-light|dark-mode-only classes to toggle visibility of 
+ * dark mode toggle buttons.
  */
 
-.dark-mode-only {
-  display: none;
+/* Replace tara hardcoded colors with variables for mode toggle */
+.sidebar .block {
+  background-color: var(--bg-body);
+}
+.header {
+  background-color: var(--bg-body);
+}
+.page-tabs li,
+.vertical-tabs__menu-item {
+  background-color: var(--bg-body);
+}
+.region-primary-menu .menu a {
+  color: var(--text-color);
+  background-color: var(--bg-body);
+}
+.region-primary-menu .menu a:hover {
+  color: var(--bg-body);
+  background-color: var(--text-color);
 }
 
+/* Add additional css root variables */
+:root {
+  --display-light-mode-only: inline;
+  --display-dark-mode-only: none;
+  --ckeditor-text-color: var(--text-color);
+}
 /* Auto dark mode via media query for first-paint if no class is set */
 @media (prefers-color-scheme: dark) {
-  body:not(.light-mode) .dark-mode-only {
-    display: inline;
-  }
-
-  body:not(.light-mode) .light-mode-only {
-    display: none;
-  }
-
   body:not(.light-mode) {
     --bg-body: #121212;
     --light: var(--bg-body);
@@ -27,24 +45,9 @@
     --text-color: #e0e0e0;
     --bold-color: var(--text-color);
     --border: #dbdbd3;
-  }
-
-  body:not(.light-mode) .sidebar .block {
-    background-color: var(--bg-body);
-  }
-
-  body:not(.light-mode) .header {
-    background-color: var(--bg-body);
-  }
-
-  body:not(.light-mode) .region-primary-menu .menu a {
-    color: var(--text-color);
-    background-color: var(--bg-body);
-  }
-
-  body:not(.light-mode) .region-primary-menu .menu a:hover {
-    color: var(--bg-body);
-    background-color: var(--text-color);
+    --display-light-mode-only: none;
+    --display-dark-mode-only: inline;    
+    --ckeditor-text-color: black;
   }
 }
 
@@ -56,30 +59,18 @@ body.dark-mode {
   --text-color: #e0e0e0;
   --bold-color: #e0e0e0;
   --border: #dbdbd3;
+  --display-light-mode-only: none;
+  --display-dark-mode-only: inline;
+  --ckeditor-text-color: black;
 }
 
-body.dark-mode .light-mode-only {
-  display: none;
+/* Add additional css classes using variables */
+.light-mode-only {
+  display: var(--display-light-mode-only);
 }
-
-body.dark-mode .dark-mode-only {
-  display: inline;
+.dark-mode-only {
+  display: var(--display-dark-mode-only);
 }
-
-body.dark-mode .sidebar .block {
-  background-color: var(--bg-body);
-}
-
-body.dark-mode .header {
-  background-color: #121212;
-}
-
-body.dark-mode .region-primary-menu .menu a {
-  color: var(--text-color);
-  background-color: var(--bg-body);
-}
-
-body.dark-mode .region-primary-menu .menu a:hover {
-  color: var(--bg-body);
-  background-color: var(--text-color);
+.ck-editor__editable_inline {
+  color: var(--ckeditor-text-color);
 }
