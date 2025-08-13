@@ -29,6 +29,9 @@
   if (storedPreference === 'dark') {
     useDarkMode();
   }
+  if (storedPreference === 'light') {
+    useLightMode();
+  }
   // No stored preference: follow system preference
   if (!['dark', 'light'].includes(storedPreference)) {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
