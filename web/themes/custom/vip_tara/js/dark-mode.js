@@ -24,7 +24,7 @@
     body.classList.remove('dark-mode');
   }
 
-  const storedPreference = localStorage.getItem('color-scheme');
+  const storedPreference = sessionStorage.getItem('color-scheme');
 
   if (storedPreference === 'dark') {
     useDarkMode();
@@ -45,10 +45,10 @@
     toggleButton.addEventListener('click', function () {
       if (body.classList.contains('dark-mode')) {
         useLightMode();
-        localStorage.setItem('color-scheme', 'light');
+        sessionStorage.setItem('color-scheme', 'light');
       } else {
         useDarkMode();
-        localStorage.setItem('color-scheme', 'dark');
+        sessionStorage.setItem('color-scheme', 'dark');
       }
     });
   }

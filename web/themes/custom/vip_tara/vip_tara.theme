@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_preprocess_html().
+ *
+ * Sets the body class to dark-mode or light-mode based on the session variable.
+ */
+function vip_tara_preprocess_html(&$variables) {
+  $session = \Drupal::request()->getSession();
+  $color_scheme = $session->get('color-scheme');
+
+  if ($color_scheme === 'dark') {
+    $variables['attributes']['class'][] = 'dark-mode';
+  }
+  if ($color_scheme === 'light') {
+    $variables['attributes']['class'][] = 'light-mode';
+  }
+}
