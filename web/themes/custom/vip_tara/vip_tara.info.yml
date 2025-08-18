@@ -3,6 +3,7 @@ type: theme
 base theme: tara
 description: '<p>VIP Subtheme of Tara, a light weight modern Drupal 8, 9, 10 theme by <a href="https://drupar.com/" target="_blank">Drupar.com</a></p><p><a href="https://drupar.com/theme/tara" target="_blank">Theme Homepage</a> | <a href="https://drupar.com/tara-theme-documentation" target="_blank">User Guide</a></p>'
 package: Drupar
+
 core_version_requirement: ^9 || ^10
 libraries:
   - vip_tara/global-styling # Library for global css overrides. These css will be loaded on every pages.

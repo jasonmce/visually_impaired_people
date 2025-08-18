@@ -1,4 +1,5 @@
 # These will be loaded on every pages.
+# dark-mode.js is loaded very early to limit flash of unstyled content.
 global-styling:
   version: VERSION
   css:
@@ -8,5 +9,4 @@ global-styling:
       css/style.css: {}
       css/dark-mode.css: {} 
   js:
-    js/dark-mode.js: {}
-      
+    js/dark-mode-toggle.js: {}

@@ -1,0 +1,21 @@
+Inital background theme
+
+            color-scheme    | dark-mode | light-mode | neither
+prefers-color-scheme: dark  | do nothing | use light-mode | no nothing
+prefers-color-scheme: light | use dark-mode | do nothing | do nothing
+prefers-color-scheme: neither | use dark-mode | use light-mode | use light mode
+
+
+
+
+toggle button press result
+
+prefers-color-scheme | -mode | color-scheme after press button
+light | none | dark
+light | dark | light
+light | light | dark
+
+
+dark | none | light
+dark | dark | light
+dark | light | dark
