@@ -1,6 +1,7 @@
 /* Provides better contrast than default */
 :root {
-  --color-primary: #884e11;
+  --light-color-primary: #884e11;
+  --color-primary: var(--light-color-primary);
 }
 
 /* Use a slightly larger default font size */

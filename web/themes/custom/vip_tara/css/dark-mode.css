@@ -32,6 +32,7 @@
 
 /* Add additional css root variables */
 :root {
+  --dark-color-primary: #dfac75; 
   --display-light-mode-only: inline;
   --display-dark-mode-only: none;
   --ckeditor-text-color: var(--text-color);
@@ -41,6 +42,7 @@
   body:not(.light-mode) {
     --bg-body: #121212;
     --light: var(--bg-body);
+    --color-primary: var(--dark-color-primary);
     --color-primary-light: var(--bg-body);
     --text-color: #e0e0e0;
     --bold-color: var(--text-color);
@@ -48,6 +50,16 @@
     --display-light-mode-only: none;
     --display-dark-mode-only: inline;    
     --ckeditor-text-color: black;
+
+    input[type="submit"], 
+    input[type="button"], 
+    input[type="reset"], 
+    button, 
+    .button,
+    .pager__item a:hover,
+    .pager__item.is-active a {
+      background-color: var(--light-color-primary);
+    }
   }
 }
 
@@ -55,6 +67,7 @@
 body.dark-mode {
   --bg-body: #121212;
   --light: var(--bg-body);
+  --color-primary: var(--dark-color-primary);
   --color-primary-light: var(--bg-body);
   --text-color: #e0e0e0;
   --bold-color: #e0e0e0;
@@ -62,7 +75,19 @@ body.dark-mode {
   --display-light-mode-only: none;
   --display-dark-mode-only: inline;
   --ckeditor-text-color: black;
+
+  input[type="submit"], 
+  input[type="button"], 
+  input[type="reset"], 
+  button, 
+  .button,
+  .pager__item a:hover,
+  .pager__item.is-active a {
+    background-color: var(--light-color-primary);
+  }
 }
+
+
 
 /* Add additional css classes using variables */
 .light-mode-only {
